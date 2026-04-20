@@ -10,7 +10,7 @@ interface CallConfirmProps {
 const quickNotes = [
   "Ditunggu di parkiran",
   "ditunggu 5 menit lagi",
-  "Saya di gerbang belakang",
+  "Ditunggu di depan pos satpam",
 ];
 
 const SLANG_MAP: Record<string, string> = {
