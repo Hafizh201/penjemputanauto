@@ -8,9 +8,8 @@ interface CallConfirmProps {
 }
 
 const quickNotes = [
-  "Saya parkir di depan gerbang",
-  "Saya pakai mobil merah",
-  "Tunggu 5 menit lagi ya",
+  "Ditunggu di parkiran",
+  "ditunggu 5 menit lagi",
   "Saya di gerbang belakang",
 ];
 
