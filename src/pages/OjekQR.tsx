@@ -192,7 +192,7 @@ const [suffix, setSuffix] = useState("");
                     setSuffix(newSuffix);
                     setNote(prefix + newSuffix);
                   }}
-                  rows={2}
+                  rows={4}
                   className="w-full bg-white/5 border border-white/10 rounded-2xl py-3 px-4 text-transparent caret-white text-sm focus:outline-none focus:ring-2 focus:ring-amber-400/40 resize-none"
               />
               </div>
@@ -359,7 +359,7 @@ const [suffix, setSuffix] = useState("");
                 )}
 
                 <p className="text-white/30 text-xs mt-4 text-center leading-relaxed px-4">
-                  Tunjukkan QR ini ke pengemudi ojek. Guru akan memvalidasi scan sebelum anak diizinkan keluar.
+                  Tunjukkan QR ini ke pengemudi ojek. Dan di scan di Pos Satpam, setelah discan, otomatis akan ada panggilan di speaker untuk siswa yang dijemput, dan informasi penjemputan akan muncul di TV depan sekolah.
                 </p>
 
                 {note && (
@@ -395,7 +395,7 @@ const [suffix, setSuffix] = useState("");
                 data-testid="btn-done-ojek"
               >
                 <Eye className="w-5 h-5" />
-                Pantau Status Penjemputan
+                
               </motion.button>
             </motion.div>
           )}
